@@ -1,0 +1,21 @@
+<h1>
+
+    Results</h1>
+{{ d1 }}
+<br> {{ d2 }}
+<br>
+
+<br> {% for i in list_result %} {{ i }}
+
+<br> {% endfor %}
+
+<br>
+<br> {% if d1_win_count > d2_win_count %}
+<p>Decision 1: {{ d1 }} Wins!
+    <br> {{ d1_win_count }} vs {{ d2_win_count }}</p>
+
+{% else %}
+<p>Decision 2: {{ d2 }} Wins!
+    <br> {{ d2_win_count }} vs {{ d1_win_count }}</p>
+
+{% endif %}

@@ -1,0 +1,40 @@
+{% extends 'home/navbar.html' %} {% block content %}
+
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Yay or Nay?</h1>
+            <p>Use simple games to make decisions.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Rock-Paper-Scissors</h4>
+                <p>Simple game of Rock-Paper-Scissors.</p>
+                <p>
+                    <a class="btn btn-secondary" href={% url 'rps:rps_index' %} role="button">Let's Play &raquo;</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h4>Coin Toss</h4>
+                <p>Flip a coin to decide.</p>
+                <p>
+                    <a class="btn btn-secondary" href={% url 'cointoss:cointoss_index' %} role="button">Let's Play &raquo;</a>
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+    </div>
+    <!-- /container -->
+
+</main>
+
+{% endblock %}
