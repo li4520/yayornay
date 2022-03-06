@@ -7,6 +7,4 @@ Simple web based apps built on Django:
 2. SQLite - storing game results 
 3. Bootstrap - CSS 
 4. Example can be found here - https://yayornay.app/
-
-
-Django project tutorial can be found here - https://docs.djangoproject.com/en/4.0/contents/
+5. Django project tutorial can be found here - https://docs.djangoproject.com/en/4.0/contents/
